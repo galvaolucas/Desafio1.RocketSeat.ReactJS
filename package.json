@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
